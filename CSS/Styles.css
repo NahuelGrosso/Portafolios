@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(18, 43, 66);
+    margin: 0px;
+
+}
+#PartSup {
+    background: rgb(21,148,203);
+    background: linear-gradient(15deg, rgba(21,148,203,1) 0%, rgba(200,225,236,1) 31%, rgba(232,236,200,1) 50%, rgba(200,225,236,1) 74%, rgba(21,148,203,1) 100%);
+    background-repeat: no-repeat;
+    padding: 50px;
+    border: 0px;
+    margin: 0px;
+
+}
+
+h2 {
+    display: inline;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#Nahuel {
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+#Grosso {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#Nombre {
+    font-size: 27px ;
+    color: rgb(18, 43, 66);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline ;
+    text-align: center;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+   
+}
+
+#PDW {
+    font-size: 10px;
+    color: rgb(18, 43, 66);
+    text-align: center;
+    padding-top: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    padding-top: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+button {
+    display: inline-block;
+    background-color: #474343;
+    color: #ffe4c4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    width: 24.8%;
+    margin-top: 5px;
+    border-radius: 15px 15px 15px 15px;
+    border: 2px solid #ffe4c4;
+}
+
+
+#DCS {
+    padding: 8px ;
+    border: 2px #ffe4c4;
+    margin-top: 30%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #ffe4c4;
+    font-size: xx-large;
+}
+
+#Nombre_de_Usuario {
+    padding: 8px;
+    border: 2px #ffe4c4;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #ffe4c4;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#DTC {
+    font-size: x-large;
+    text-align: center;
+    color: #ffe4c4;
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
+}
+
+
+form {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+input, textarea  {
+    border: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+}
+textarea {
+    width: 380px;
+    resize: none;
+
+}
+
+.Forma {
+    text-align: flex;
+    padding: 5px; ;
+    border: 4px;
+    border-color: #ffe4c4 ;
+    margin: 6px;
+
+}
+
+#BotonEnv {
+    padding: 4px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    background-color: #ffe4c4;
+    color:rgb(18, 43, 66);
+    font-size: large;
+    width: 380px;
+}
+
+footer {
+    margin-bottom: 30px;
+}
+
+#FotoInf {
+    display: block;
+    text-align: center;
+}
+
+#Oleo {
+    border-radius: 50%;
+    border: 3px solid #474343;
+    padding: 8px;
+    margin: 20px;
+    width: 310px;    
+}
+
+.Icons {
+    display: block;
+    text-align: center;
+}
+
+a {
+    padding: 10px;
+    margin: 10px;
+
+}
