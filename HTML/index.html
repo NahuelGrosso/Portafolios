@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Ico/NGIco.png">
     <link rel="stylesheet" href="../CSS/Styles.css">
 
     <title>Portafolios</title>
 </head>
+
 <body>
     <header>
         <div id="PartSup">
             <div id="Nombre">
                 <Div id="MiNombre">
-                    <h2 id="Nahuel">N a h u e l </h2>
-                    <h2 id="Grosso">G r o s s o</h2>
+                    <h2 id="Nahuel"> N a h u e l </h2>
+                    <h2 id="Grosso"> G r o s s o </h2>
                 </Div>
             </div>
 
             <div id="PDW">
-                <h1>Programador - Desarrollador  WEB</h1>
+                <h1>Programador - Desarrollador WEB</h1>
             </div>
         </div>
     </header>
@@ -27,20 +30,151 @@
 
     <main>
         <Div class="BarraMenu">
-            <button onclick="FxTxt1" id="SobreMi"> <h3>Sobre Mi</h3> </button>
+            <div class="dropdown">
+                <button id="SobreMi">
+                    <h3>🠳 Sobre Mi </h3>
+                </button>
 
-            <button onclick="FxTxt2" id="Proyectos"> <h3>Proyectos</h3> </button>
 
-            <button onclick="FxTxt3" id="Contacto"> <h3>Contacto</h3> </button>
+                <div class="dropdown-content">
+                    <p class="P">Hola me llamo Nahuel Grosso, a principios de 2022 me entere que se dictaban cursos de programación, área que siempre me llamo la atención y decidí aprovechar la oportunidad.
+                    Tiempo atrás había comenzado con actividades en MUMUKi, y también estuve inscripto en el plan 111MIL, pero por cuestiones laborales no pude realizarlos.
+                    Provengo de un ambiente totalmente distinto a lo que es la programación, me crie en el campo, hijo de madre docente rural y padre productor agropecuario.
+                    Estudie hasta tercer año la carrera de Veterinaria en UNICEN, y por cuestiones de salud tome la decisión de dejar la carrera.
+                    Por todo esto no le tengo miedo a los cambios, ni a los nuevos desafíos, hoy estoy enfocado en seguir aprendiendo, capacitarme y desarrollarme cada vez.
+                    Por eso ya comencé un nuevo curso en programación, con la que me brinde más y mejores herramientas, y que refuerce las
+                    que ya tengo. Y otro sobre base de datos que se anexa y muy útil a lo anterior.
+                    Exceptuando los trabajos prácticos con los que fuimos aprendiendo a lo largo del curso, este portafolios es mi primer proyecto completo que realizo. Espero pronto sumar mas proyectos!</p>
+                </div>
+            </Div>
 
-            <button onclick="Fxtxt4" id="CV"> <h3>CV</h3> </button>
 
-        </Div>
+            <div class="dropdown">
+                <button id="Idiomas">
+                    <h3>🠳 Lenguajes y Herramientas</h3>
+                </button>
+
+                <div class="dropdown-content">
+                    <ul>
+                        <h4>Lenguajes</h4>
+                        <li>HTML</li>
+                        <li>CCS</li>
+                        <li>JAVASCRIPT</li>
+
+                        <h4>Herramientas</h4>
+                        <li>GitHub</li>
+                        <li>Bootstrap</li>
+                        <li>W3Schools</li>
+                        <li>MDN</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button id="Contacto">
+                    <h3>🠳 Contacto</h3>
+                </button>
+
+                <div class="dropdown-content">
+                    <ul>
+                        <li>Correo electronico
+                            <ul>
+                                <li>nahuelgrosso1982@gmail.com</li>
+                                <li>nahuel_lng@hotmail.com</li>
+                            </ul>
+                        </li>
+                        <li>Telefono/whatsapp +549 2494003208</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button id="Proyectos">
+                    <h3>🠳 C.V.</h3>
+                </button>
+
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a target="_blank"
+                                href="https://drive.google.com/file/d/1zw6MO0ddFf4_K5lONPdQcGWTwsCq1zX_/view?usp=sharing">CV
+                                Grosso, L.N.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </main>
 
-    
+    <aside class="Animado">
+        <div class="AnimaL">
+            <div class="AnimacionLeng"></div>
+        </div>
+
+        <div class="AnimaH">
+            <div class="AnimacionHer"></div>
+        </div>
+
+
+    </aside>
+
+    <aside class="AsideProyectos">
+        <div class="Proyectos">
+            <button id="Proyectos">
+                <h3>Proyectos</h3>
+            </button>
+        </div>
+
+        <div class="ContenedorProyectos">
+            <div class="Tarjetas">
+                <div class="card">
+                    <a target="_blank"
+                        href="file:///E:/Mis%20Documentos/WorkSpace/Proyectos/Proyecto%20Veterinaria%20del%20Parque/HTML/Index.html?Cantidad="><img
+                            src="../IMG_Proyectos/Vet-DP.png" class="card-img-top" alt="Veterinaria del Parque"></a>
+
+                    <div class="card-body">
+                        <p class="card-text">Del Parque, es un consultorio veterinario que se encuetra en la
+                            ciudad
+                            de Miramar, Prov. de Buenos Aires.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Tarjetas">
+                <div class="card">
+                    <a target="_blank"
+                        href="file:///E:/Mis%20Documentos/WorkSpace/Proyectos/Proyecto%20La%20Tapera/Index.html"><img
+                            src="../IMG_Proyectos/La_Tapera.jpg" class="card-img-top" alt="La Tapera"></a>
+
+                    <div class="card-body">
+                        <p class="card-text">La Tapera, este espacio para mostrar y compartir mi Hobby, que es trabajar
+                            en soga.
+                            Oficio conocido tambien como el de soguero.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Tarjetas">
+                <div class="card">
+                    <a target="_blank"
+                        href="file:///E:/Mis%20Documentos/WorkSpace/Proyectos/Proyecto%20Veterinaria%20del%20Parque/HTML/Index.html?Cantidad="><img
+                            src="../IMG_Proyectos/Al_Asador.jpeg" class="card-img-top" alt="Al Asador Tandil"></a>
+
+                    <div class="card-body">
+                        <p class="card-text">Al Asador Tandil, es un emprendiemiento, que consite en coccion de carnes
+                            al asador, para todo tipo de eventos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+
+
     <aside>
-        <form action="">
+        <form action="https://formsubmit.co/nahuelgrosso1982@gmail.com"; method="post">
             <div>
                 <h3 id="DCS">Consultas - Inquietudes - Sugerencias </h3>
 
@@ -48,25 +182,25 @@
 
                 <h3 id="DTC">Acá podes dejarme tu cometario</h3>
             </div>
-            
+
             <div class="Forma">
                 <input type="text" placeholder="Nombre" id="NameForm">
             </div>
 
             <div class="Forma">
-                <input type="Tel"  placeholder="Telefono" id="Telefono">
+                <input type="Tel" placeholder="Telefono" id="Telefono">
             </div>
 
             <div class="Forma">
                 <input type="email" placeholder="Correo electronico" id="Correo Electronico">
             </div>
-            
+
             <div class="Forma">
                 <textarea id="msj" placeholder="Escriba aquí su comentario..." cols="30" rows="10"></textarea>
             </div>
 
             <div class="row">
-                <button id="BotonEnv">ENVIAR</button>
+                <input id="BotonEnv" type="submit" value="Enviar">
             </div>
         </form>
     </aside>
@@ -77,17 +211,27 @@
         </div>
 
         <div class="Icons">
-            <a target="_blank" href="https://www.linkedin.com/in/nahuel-grosso-551b78242/"> <img src="../Ico/icons8-linkedin-rodeado-de-círculo-100.png" alt="link"></a>
-            
-            <a target="_blank" href="https://www.instagram.com/nahuel.grosso/"> <img src="../Ico/icons8-instagram-100.png" alt="ins"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/nahuel-grosso-551b78242/"> <img
+                    src="../Ico/icons8-linkedin-rodeado-de-círculo-100.png" alt="link"></a>
 
-            <a target="_blank" href="https://www.facebook.com/nahuel.grosso.9"> <img src="../Ico/icons8-facebook-100.png" alt="fac"></a>
+            <a target="_blank" href="https://www.instagram.com/nahuel.grosso/"> <img
+                    src="../Ico/icons8-instagram-100.png" alt="ins"></a>
 
-            <a target="_blank" href="https://twitter.com/NahuelGrosso6"> <img src="../Ico/icons8-twitter-100.png" alt="tw"></a>
+            <a target="_blank" href="https://www.facebook.com/nahuel.grosso.9"> <img
+                    src="../Ico/icons8-facebook-100.png" alt="fac"></a>
+
+            <a target="_blank" href="https://twitter.com/NahuelGrosso6"> <img src="../Ico/icons8-twitter-100.png"
+                    alt="tw"></a>
+
+            <a target="_blank" href="https://github.com/NahuelGrosso"> <img src="../Ico/icons8-github-100.png"
+                    alt="Git"></a>
+
         </div>
     </footer>
 
 
     <script src="../JS/Java.js"></script>
+
 </body>
+
 </html>

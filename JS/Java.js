@@ -2,17 +2,8 @@ let NombreUsuario = prompt("Muchas gracias por visitar mi portafolios! Me diría
 
 alert ("Hola" + " " + NombreUsuario +"!")
 
-document.getElementById ("Nombre_de_Usuario").innerHTML = NombreUsuario ;
-
-//document.getElementById ("NameForm").innerHTML = NombreUsuario ;
+document.getElementById("Nombre_de_Usuario").innerHTML = NombreUsuario;
 
 
-//while (NombreUsuario > " ")
-    
-    
-    
-// if (NombreUsuario > " ") {
-//    document.getElementById("Name").innerHTML = 
-// }
+document.getElementById("NameForm").value = NombreUsuario
 
-//} Quiero hacer que si el usuario no ingresa un nombre aparezca el input del nombre de usuario en pantalla del formulario,si ingresa su nombre ya aparece solo y que el imput desaparezca
